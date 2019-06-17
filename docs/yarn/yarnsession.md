@@ -24,4 +24,7 @@
     application_1560731218845_0002	Flink session cluster	        Apache Flink	    hadoop	   default	           RUNNING	         UNDEFINED	           100%	http://ip-172-31-26-227.ec2.internal:35845
     ```
  1. Kill the yarn session
+    ```
+    yarn application -kill <app_id>
+    ```
  
